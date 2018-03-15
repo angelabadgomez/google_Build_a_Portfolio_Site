@@ -1,2 +1,2 @@
 # google_Build_a_Portfolio_Site
-Project
+Web Foundations: Build a Portfolio Site
