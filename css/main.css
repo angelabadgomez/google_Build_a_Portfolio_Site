@@ -1,0 +1,236 @@
+/*
+*
+* General settings
+*
+*/
+
+body {
+  max-width: 1000px;
+  margin: auto;
+  font-family: serif;
+}
+
+header {
+  width: 100%;
+}
+
+hr {
+  border: none;
+  background-color: #6d6884;
+  width: 100%;
+  margin-bottom: 1em;
+  height: 1px;
+}
+
+/*
+*
+* Grids and boxes: configuration
+*
+*/
+
+header, main, .logo .top, .divider, .content, .skills, footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 20%;
+}
+
+.top {
+  width: 80%;
+}
+
+.divider {
+  width: 100%;
+}
+
+.central_container {
+  background-image: url(../img/desk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+  position: relative;
+  height: 30em;
+  width: 100%;
+}
+
+.skills {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.content_title {
+  width: 100%;
+}
+
+.box {
+  width: 30%;
+  height: 200px;
+  border: 1px solid;
+  border-radius: 10px;
+  margin-top: 50px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.coding {
+  background: url(../img/weblang.png) no-repeat top;
+  background-size: contain;
+}
+
+.websites {
+  background: url(../img/mirexperiences.jpg) no-repeat top;
+  background-size: cover;
+}
+
+.certifications {
+  background: url(../img/certificate_1x.jpg) no-repeat top;
+  background-size: cover;
+}
+
+.career {
+  background: url(../img/profile.jpg) no-repeat center;
+  background-size: cover;
+}
+
+/*
+*
+* Adicional section styles
+*
+*/
+
+.box h3 {
+  border-radius: 0 0 10px 10px;
+  background: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  position: absolute;
+  margin-bottom: 0;
+  bottom: 0;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  text-align: center;
+  color: #fff;
+  transition: background-color  0.7s;
+}
+
+.box:hover h3 {
+  background-color: rgba(152, 37, 37, 0.75);
+}
+
+/*
+*
+* Texts, paragraphs and links: styles
+*
+*/
+
+.title {
+  color: #055663;
+  text-shadow: #bfe4ec 2px 1px;
+  text-align: right;
+  width: 100%;
+  margin: 0.1em auto;
+}
+
+.subtitle {
+  color: #055663;
+  text-shadow: #bfe4ec 2px 1px;
+  text-align: right;
+  font-style: italic;
+  width: 100%;
+  margin: 0.1em auto;
+}
+
+.central_container p {
+  font: 2.5em;
+  color: white;
+  text-shadow: 1px 1px 7px #cc8e4c;
+  line-height:10em;
+  text-align: center;
+}
+
+.skills ul {
+  list-style: none;
+  padding-left: 0px;
+  margin: auto;
+}
+
+.skills ul li {
+  display: inline-flex;
+}
+
+.box h3 {
+  margin-top: 0.8em;
+}
+
+footer ul {
+  width: 100%;
+  list-style: none;
+  text-align: right;
+  margin: auto;
+}
+
+footer ul li {
+  display: inline-flex;
+  margin: 0.5em;
+}
+
+footer a {
+  text-decoration: none;
+  color: #055663;
+}
+
+/*
+*
+* Buttons and logotype
+*
+*/
+
+.skill_button {
+  border: 1.4px solid #055663;
+  border-radius: 20px;
+  color: #3d694f;
+  padding: 0.5em 0.8em;
+  margin: 0.5em 0.4em;
+  text-align: center;
+}
+
+.skill_button:hover{
+  background-color: #299bad;
+  color: white;
+  transition: 0.5s;
+}
+
+.logotype {
+  width: 90px;
+  height: 25px;
+  vertical-align: bottom;
+}
+
+/*
+*
+* Ordering blocks
+*
+*/
+
+.logo, .top {
+  order: -4;
+}
+
+.divider {
+  order: -3;
+}
+
+.central_container {
+  order: -2
+}
+
+.skills {
+  order: -1;
+}
+
+.coding, .websites, .certifications, .career {
+  order: 10;
+}

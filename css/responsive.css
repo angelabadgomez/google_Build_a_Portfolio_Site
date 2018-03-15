@@ -1,0 +1,233 @@
+/*
+*
+* Responsive versions for most devices
+*
+*/
+
+@media screen and (max-width: 399px) {
+  .central_container {
+    width: 100%;
+    height: 10em;
+    order: -2;
+    background-image: url(../img/desk_1x.jpg);
+  }
+
+  .central_container p {
+    font-size: 1.5em;
+    line-height: 4em;
+  }
+
+  .logo img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .title {
+    font-size: 1.5em;
+  }
+
+  .subtitle {
+    font-size: 1em;
+  }
+
+  .content_title {
+    font-size: 1em;
+    margin-left: 0.2em;
+  }
+
+  .skills {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .skill_button {
+    padding: 0.3em 0.6em;
+    margin: 0.3em 0.2em;
+  }
+
+  .coding {
+    width: 80%;
+    order: 0;
+    margin-top: 0px;
+  }
+
+  .websites {
+    width: 80%;
+    order: 1;
+  }
+
+  .certifications {
+    width: 80%;
+    order: 2;
+  }
+
+  .career {
+    width: 80%;
+    order: 3;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .central_container {
+    width: 100%;
+    height: 15em;
+    background-image: url(../img/desk_1x.jpg);
+  }
+
+  .central_container p {
+    font-size: 1.8em;
+    line-height: 5em;
+  }
+
+  .logo img {
+      width: 80px;
+      height: 80px;
+  }
+
+  .title {
+    font-size: 1.5em;
+    margin-right: 0.2em;
+  }
+
+  .content_title {
+    font-size: 1.1em;
+    margin-left: 0.2em;
+    margin-bottom: -2.5em;
+  }
+
+  .subtitle {
+    font-size: 1.2em;
+    margin-right: 0.2em;
+  }
+
+  .skills {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .skill_button {
+    padding: 0.3em 0.6em;
+    margin: 0.3em 0.2em;
+  }
+
+  .coding, .websites, .certifications, .career {
+    width: 70%;
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 550px ) {
+  .central_container {
+    width: 100%;
+    height: 15em;
+    background-image: url(../img/desk_1x.jpg);
+  }
+
+  .central_container p {
+    font-size: 2em;
+    line-height: 5em;
+  }
+
+  .logo img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .title {
+    font-size: 1.5em;
+    margin-right: 0.2em;
+  }
+
+  .subtitle {
+    font-size: 1.2em;
+    margin-right: 0.2em;
+  }
+
+  .skills {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .skill_button {
+    padding: 0.3em 0.6em;
+    margin: 0.3em 0.2em;
+  }
+
+  .coding, .websites, .certifications, .career {
+    width: 70%;
+    max-width: 300px;
+    }
+  }
+
+@media screen and (min-width: 680px ) {
+  .central_container {
+    width: 100%;
+    height: 20em;
+    background-image: url(../img/desk.jpg);
+  }
+
+  .central_container p {
+    font-size: 2em;
+    line-height: 6em;
+  }
+
+  .title {
+    font-size: 2em;
+    margin-right: 0.2em;
+  }
+
+  .subtitle {
+    font-size: 1.2em;
+    margin-right: 0.2em;
+  }
+
+  .skills {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  .skill_button {
+    padding: 0.5em 0.8em;
+    margin: 0.5em 0.4em;
+  }
+
+  .coding, .websites, .certifications, .career {
+    width: 70%;
+    max-width: 300px;
+    }
+}
+
+@media screen and (min-width: 800px ) {
+  .central_container {
+    height: 25em;
+    }
+
+  .central_container p {
+    line-height: 8em;
+  }
+
+  .title {
+    font-size: 2em;
+    margin-right: 0.2em;
+  }
+
+  .subtitle {
+    font-size: 1.5em;
+    margin-right: 0.2em;
+  }
+
+  .skills {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .skill_button {
+    padding: 0.5em 0.8em;
+    margin: 0.5em 0.4em;
+  }
+
+  .coding, .websites, .certifications, .career {
+    width: 70%;
+    max-width: 300px;
+  }
+}
